@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ProductIQ — AI Product Intelligence</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="topbar">
+  <div class="brand">
+    <div class="mark">Q</div>
+    <div class="name">ProductIQ</div>
+    <div class="tag">Unilog · UniHack 2026</div>
+  </div>
+  <div class="status-pill">
+    <span class="status-dot" id="apiDot"></span>
+    <span id="apiStatusText">Checking backend…</span>
+  </div>
+</div>
+
+<div class="shell">
+
+  <div class="rail">
+    <div class="rail-label">Input mode</div>
+    <button class="source-btn active" data-src="compose"><span class="ic">Cx</span>Multi-attach</button>
+    <button class="source-btn" data-src="batch"><span class="ic">Ba</span>Batch catalog</button>
+    <div class="rail-hr"></div>
+    <div class="rail-label">Sources supported</div>
+    <div style="padding:0 10px;font-size:12px;color:var(--muted);line-height:2;">
+      Text · URLs · PDF<br>Images · CSV / XLSX
+    </div>
+  </div>
+
+  <div class="main" id="mainArea">
+    <!-- populated by app.js -->
+  </div>
+
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
