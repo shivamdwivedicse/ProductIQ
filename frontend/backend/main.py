@@ -17,8 +17,8 @@ from fastapi.responses import JSONResponse
 from dotenv import load_dotenv
 
 import rag
-import validation
-from models import ExtractResponse, BatchResponse, BatchItem
+import frontend.backend.validation as validation
+from frontend.backend.models import ExtractResponse, BatchResponse, BatchItem
 
 load_dotenv()
 
