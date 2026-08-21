@@ -50,25 +50,23 @@ A single industrial SKU's information is scattered across a website description,
 ## 🎬 See it in action
 
 <div align="center">
-<img src="readme-assets/landing-page.png" width="800" alt="ProductIQ landing page">
+<img src="landing-page.png" width="800" alt="ProductIQ landing page">
 
 *Landing page*
 
 <br><br>
 
-<img src="readme-assets/multi-attach-screen.png" width="800" alt="Multi-attach input screen">
+<img src="multi-attach-screen.png" width="800" alt="Multi-attach input screen">
 
 *Attach text, URLs, PDFs, images, and spreadsheets together*
 
 <br><br>
 
-<img src="readme-assets/results-screen.png" width="800" alt="Structured, validated, explainable output">
+<img src="results-screen.png" width="800" alt="Structured, validated, explainable output">
 
 *Structured output — quality score, source-mix, confidence per field, and validation flags*
 
 </div>
-
-> 💡 Replace these with your own GIF walkthrough for extra impact — a 10-second screen recording of a live extraction says more than any screenshot. Tools like [ScreenToGif](https://www.screentogif.com/) (Windows) or [Kap](https://getkap.co/) (Mac) work great and are free.
 
 <br>
 
