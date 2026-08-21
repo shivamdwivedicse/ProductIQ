@@ -50,19 +50,19 @@ A single industrial SKU's information is scattered across a website description,
 ## 🎬 See it in action
 
 <div align="center">
-<img src="landing-page.png" width="800" alt="ProductIQ landing page">
+<img src="assets/landing-page.png" width="800" alt="ProductIQ landing page">
 
 *Landing page*
 
 <br><br>
 
-<img src="multi-attach-screen.png" width="800" alt="Multi-attach input screen">
+<img src="assets/multi-attach-screen.png" width="800" alt="Multi-attach input screen">
 
 *Attach text, URLs, PDFs, images, and spreadsheets together*
 
 <br><br>
 
-<img src="results-screen.png" width="800" alt="Structured, validated, explainable output">
+<img src="assets/results-screen.png" width="800" alt="Structured, validated, explainable output">
 
 *Structured output — quality score, source-mix, confidence per field, and validation flags*
 
@@ -154,7 +154,7 @@ This runs **entirely server-side**, in plain Python — no additional LLM call, 
 | **AI / Generation** | Google Gemini API (`gemini-3.6-flash`) — text + vision |
 | **Source parsing** | `pypdf` (PDF) · `pandas`/`openpyxl` (spreadsheets) · `BeautifulSoup`+`requests` (web) · `Pillow` (images) |
 | **Frontend** | HTML5 · CSS3 · Vanilla JavaScript — zero build step |
-| **Deployment** | Render (backend) · Netlify (frontend) |
+| **Deployment** | Render (backend) · Render (frontend) |
 | **Secrets** | `python-dotenv` — key lives only in backend `.env` |
 
 </div>
