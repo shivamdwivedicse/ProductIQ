@@ -12,7 +12,7 @@
 [![Deployed](https://img.shields.io/badge/Backend-Live_on_Render-46E3B7?style=flat-square&logo=render&logoColor=white)](https://productiq-asks.onrender.com/api/health)
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](#license)
 
-[Try it live](https://productiq-1.onrender.com) · [Report Bug](https://github.com/shivamdwivedicse/productiq/issues) · [Request Feature](https://github.com/shivamdwivedicse/productiq/issues)
+[Try it live](https://productiq-1.onrender.com/) · [Report Bug](https://github.com/shivamdwivedicse/productiq/issues) · [Request Feature](https://github.com/shivamdwivedicse/productiq/issues)
 
 </div>
 
